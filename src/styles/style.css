@@ -1,0 +1,39 @@
+.paragraph_margin_bottom {
+    margin-bottom: 20px;
+}
+
+.paragraph_margin_bottom_10 {
+    margin-bottom: 10px;
+}
+
+.new_why_choose_text_mainbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    text-align: start;
+    margin: 40px 0 0 0;
+    align-items: center;
+}
+
+.paragraph_margin_top {
+    margin-top: 40px;
+}
+
+.new_courses_para_mainbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    border: 1px dashed #a3241c5e;
+    border-radius: 20px;
+    background-color: #fbf9fa;
+}
+
+.new_courses_para_mainbox p {
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.new_courses_para_mainbox p:first-child {
+    border-right: 1px solid #dedede;
+}
