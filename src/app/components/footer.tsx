@@ -1,21 +1,19 @@
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Newspaper, Mail, Phone, MapPin } from 'lucide-react';
 
 const quickLinks = [
-  'About SIFIL',
-  'Courses',
-  'Admissions',
-  'Faculty',
-  'Certifications',
-  'Contact Us',
+  { label: 'Privacy Policy', href: 'https://sifil.edu.in/privacy-policy' },
+  { label: 'Terms and Conditions', href: 'https://sifil.edu.in/terms-and-conditions' },
+  { label: 'Rules and Regulations', href: 'https://sifil.edu.in/rules-and-regulations' },
+  { label: 'Rules for Refund of Fees', href: 'https://sifil.edu.in/rules-and-refund-fees' },
 ];
 
 const courses = [
-  'French',
-  'German',
-  'Spanish',
-  'Japanese',
-  'Chinese',
-  'Korean',
+  { label: 'French', href: 'https://sifil.edu.in/french-classes-in-pune' },
+  { label: 'German', href: 'https://sifil.edu.in/german-language-institute-in-pune' },
+  { label: 'Spanish', href: 'https://sifil.edu.in/spanish-language-institute' },
+  { label: 'Japanese', href: 'https://sifil.edu.in/japanese-language-courses' },
+  { label: 'Chinese', href: 'https://sifil.edu.in/chinese-speaking-courses' },
+  { label: 'Korean', href: 'https://sifil.edu.in/korean-language-4' },
 ];
 
 export function Footer() {
@@ -26,87 +24,94 @@ export function Footer() {
           {/* About Section */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-white mb-4">SIFIL</h3>
-            <p className="text-gray-400 leading-relaxed">
+            {/* <p className="text-gray-400 leading-relaxed">
               Symbiosis Institute of Foreign and Indian Languages - Building global communication skills through expert-led online language courses.
-            </p>
+            </p> */}
             <div className="flex gap-3 pt-4">
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
+              <a href="https://www.facebook.com/SymbiSpeaks/" target='_blank' className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
+              <a href="https://x.com/eltissifil?lang=en" target='_blank' className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
+              <a href="https://www.instagram.com/sifilsymbiosis?igshid=49r3bhgyx87n" target='_blank' className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
-                <Linkedin className="w-5 h-5" />
+              <a href="https://blog.sifil.edu.in/" target='_blank' className="w-10 h-10 bg-white/10 hover:bg-[#A3241C] rounded-full flex items-center justify-center transition-colors">
+                <Newspaper className="w-5 h-5" />
               </a>
             </div>
           </div>
-          
+
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               {quickLinks.map((link, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-400 hover:text-[#e4bd22] transition-colors">
-                    {link}
+                  <a
+                    href={link.href}
+                    className="text-gray-400 hover:text-[#e4bd22] transition-colors"
+                    target='_blank'
+                  >
+                    {link.label}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
-          
+
           {/* Courses */}
           <div>
             <h4 className="font-semibold text-white mb-4">Courses</h4>
             <ul className="space-y-2">
               {courses.map((course, index) => (
                 <li key={index}>
-                  <a href="#" className="text-gray-400 hover:text-[#e4bd22] transition-colors">
-                    {course}
+                  <a
+                    href={course.href}
+                    className="text-gray-400 hover:text-[#e4bd22] transition-colors"
+                  >
+                    {course.label}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
-          
+
           {/* Contact */}
           <div>
             <h4 className="font-semibold text-white mb-4">Contact</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>Symbiosis International University, Pune, Maharashtra</span>
+                <span>Symbiosis Bhasha Bhavan, Gokhale Cross Road, Model Colony, Pune 411016, Maharashtra, India</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+91-XXX-XXX-XXXX</span>
+                <span>+91 -20-25671812</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <span>info@sifil.edu</span>
+                <span>info@sifil.edu.in</span>
               </li>
             </ul>
           </div>
         </div>
-        
+
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             <p className="text-gray-400 text-sm">
               © 2026 SIFIL - Symbiosis Institute of Foreign and Indian Languages. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm">
+            {/* <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 Privacy Policy
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 Terms & Conditions
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
