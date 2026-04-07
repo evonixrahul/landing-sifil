@@ -1,6 +1,7 @@
 * {
     scroll-behavior: smooth;
 }
+
 .paragraph_margin_bottom {
     margin-bottom: 20px;
 }
@@ -39,4 +40,40 @@
 
 .new_courses_para_mainbox p:first-child {
     border-right: 1px solid #dedede;
+}
+
+@media (max-width: 991.98px) {
+    .new_why_choose_text_mainbox {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .new_why_choose_text_secondbox {
+        grid-row: 1/2;
+    }
+
+    .new_courses_para_mainbox p {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .new_courses_para_mainbox {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .new_courses_para_mainbox {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .new_courses_para_mainbox p:first-child {
+        border-right: 0;
+        border-bottom: 1px solid #dedede;
+    }
+
+    .new_courses_para_mainbox p {
+        padding: 20px 0;
+    }
 }
