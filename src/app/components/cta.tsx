@@ -19,7 +19,7 @@ export function CTA() {
             </h2>
             
             <p className="text-lg text-white/90 leading-relaxed">
-              March 2026 offers a strong opportunity for you to start learning a new language from a trusted academic institution.
+              April 2026 offers a strong opportunity for you to start learning a new language from a trusted academic institution.
             </p>
             <p className="text-lg text-white/90 leading-relaxed">
               SIFIL’s online language learning programs combine global curriculum, expert faculty, and practical communication training. You build skills that support global careers and international education goals.

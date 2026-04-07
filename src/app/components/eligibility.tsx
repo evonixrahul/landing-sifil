@@ -1,8 +1,8 @@
 import { CheckCircle } from 'lucide-react';
 
 const requirements = [
-  'Minimum qualification: 10+2 or equivalent',
-  'Basic English reading and comprehension',
+  'Minimum qualification: 10th appeared equivalent',
+  'Basic English reading and comprehension wil be beneficial',
   'Interest in global languages and cultures',
   'Access to a stable internet connection',
 ];

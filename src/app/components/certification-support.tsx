@@ -6,6 +6,7 @@ const certifications = [
   { name: 'JLPT', language: 'Japanese' },
   { name: 'HSK', language: 'Chinese' },
   { name: 'TOPIK', language: 'Korean' },
+  { name: 'DELE', language: 'Spanish' },
 ];
 
 export function CertificationSupport() {
@@ -24,7 +25,7 @@ export function CertificationSupport() {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-6 mb-8">
           {certifications.map((cert, index) => (
             <div 
               key={index}

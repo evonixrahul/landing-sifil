@@ -3,8 +3,8 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: '1. What languages are available in the online language courses starting March 2026?',
-    answer: 'The online language courses starting March 2026 include French, German, Spanish, Japanese, Chinese, and Korean. These foreign language courses focus on grammar, vocabulary, pronunciation, and communication skills. Each course follows a structured curriculum and supports step by step language learning through guided lessons and interactive practice.',
+    question: '1. What languages are available in the online language courses starting April 2026?',
+    answer: 'The online language courses starting April 2026 include French, German, Spanish, Japanese, Chinese, and Korean. These foreign language courses focus on grammar, vocabulary, pronunciation, and communication skills. Each course follows a structured curriculum and supports step by step language learning through guided lessons and interactive practice.',
   },
   {
     question: '2. Who can enroll in these online language learning programs?',

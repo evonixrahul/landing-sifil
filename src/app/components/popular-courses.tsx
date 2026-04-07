@@ -8,6 +8,8 @@ const courses = [
   { name: 'Russian', color: 'from-indigo-500 to-indigo-600' },
   { name: 'Sanskrit', color: 'from-orange-500 to-orange-600' },
   { name: 'Hindi', color: 'from-green-500 to-green-600' },
+  { name: 'Korean', color: 'from-blue-500 to-blue-600' },
+  { name: 'Chinese', color: 'from-red-500 to-red-600' },
 ];
 
 export function PopularCourses() {
@@ -19,7 +21,7 @@ export function PopularCourses() {
             Popular Foreign Language Courses Available Online
           </h2>
           <p className="text-lg text-gray-600 mx-auto paragraph_margin_bottom_10">
-            In March 2026, new batches of structured <strong>online foreign language courses</strong> will open for beginners and intermediate learners.
+            In April 2026, new batches of structured <strong>online foreign language courses</strong> will open for beginners and intermediate learners.
           </p>
           <p className="text-lg text-gray-600 mx-auto">
             You gain access to expert instructors and <strong>comprehensive learning modules</strong> that build strong grammar, vocabulary, and speaking skills.
