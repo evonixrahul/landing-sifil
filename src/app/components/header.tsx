@@ -32,7 +32,7 @@ export function Header() {
           </nav>
           <div className="flex items-center">
             <a
-              href="https://forms.gle/ARRU2zu1msnCFFWT9"
+              href="https://forms.gle/142xo19QXRPQ4oJf9"
               target="_blank"
               className="bg-[#1b31a4] text-white px-4 sm:px-6 py-2 sm:py-2.5 rounded-full hover:opacity-90 transition-opacity text-sm sm:text-base"
             >
