@@ -38,7 +38,7 @@ export function WhyChoose() {
                 {/* <img src="/images/why-choose-image.webp" alt="online language learning courses" /> */}
                 <img
                   src={`${import.meta.env.BASE_URL}images/why-choose-image.webp`}
-                  alt="online language learning courses"
+                  alt="Online language learning courses"
                 />
               </div>
             </div>

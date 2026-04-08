@@ -49,7 +49,7 @@ export function WhySIFIL() {
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <ImageWithFallback 
               src="https://images.unsplash.com/photo-1758270705518-b61b40527e76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIwc3R1ZGVudHMlMjBzdHVkeWluZyUyMHRvZ2V0aGVyfGVufDF8fHx8MTc3MzYxODIyNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Diverse students studying together"
+              alt="Online language learning courses"
               className="w-full h-full object-cover"
             />
           </div>

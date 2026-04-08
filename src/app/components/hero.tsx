@@ -47,7 +47,7 @@ export function Hero() {
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
                 src="/images/hero-image.webp"
-                alt="Student learning online"
+                alt="Online language learning courses"
                 className="w-full h-full object-cover"
               />
             </div>

@@ -47,7 +47,7 @@ export function StructuredLearning() {
             <div className="rounded-3xl overflow-hidden shadow-xl">
               <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1771054244019-96f9db9720b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjB2aWRlbyUyMGNvbmZlcmVuY2UlMjBlZHVjYXRpb258ZW58MXx8fHwxNzczNjY4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Online video conference education"
+                alt="Online language learning courses"
                 className="w-full h-full object-cover"
               />
             </div>

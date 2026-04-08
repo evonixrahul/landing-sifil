@@ -45,7 +45,7 @@ export function CTA() {
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <ImageWithFallback 
                 src="https://images.unsplash.com/photo-1758876202877-30b2c505ad9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnbG9iYWwlMjBjb21tdW5pY2F0aW9uJTIwd29ybGQlMjBtYXB8ZW58MXx8fHwxNzczNjY4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Global communication"
+                alt="Online language learning courses"
                 className="w-full h-full object-cover"
               />
             </div>
