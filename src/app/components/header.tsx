@@ -5,9 +5,12 @@ export function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
             <a href="/">
-              <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-wide">
+              {/* <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-wide">
                 SIFIL
-              </h1>
+              </h1> */}
+              <div className="header_logobox">
+                <img src="/images/SIFIL-logo.webp" alt="SIFIL Logo" />
+              </div>
             </a>
           </div>
           <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">

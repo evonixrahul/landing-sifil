@@ -2,6 +2,11 @@
     scroll-behavior: smooth;
 }
 
+.header_logobox img {
+    max-width: 170px;
+    border-radius: 12px;
+}
+
 .paragraph_margin_bottom {
     margin-bottom: 20px;
 }
@@ -60,6 +65,10 @@
     .new_courses_para_mainbox {
         padding: 20px;
     }
+
+    .header_logobox img {
+        max-width: 100px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -75,5 +84,10 @@
 
     .new_courses_para_mainbox p {
         padding: 20px 0;
+    }
+
+    .header_logobox img {
+        max-width: 120px;
+        border-radius: 8px;
     }
 }
